@@ -1,10 +1,12 @@
 # Digital Clock
 
-A simple and elegant digital clock built using [HTML, CSS, JavaScript or whatever tech you used].
+[Live Demo](https://jsdigitalclock.vercel.app/)
+
+A simple and elegant digital clock built using [HTML, CSS, JavaScript].
 
 ## Features
 
-- Displays current time in a 12/24-hour format
+- Displays current time in a 24-hour format
 - Minimalist design
 - Real-time updates
 
@@ -12,3 +14,7 @@ A simple and elegant digital clock built using [HTML, CSS, JavaScript or whateve
 
 1. Clone this repository.
 2. Open `index.html` in a web browser.
+
+## Preview
+
+![Digital Clock](/Image/digitalclock.png)
