@@ -17,4 +17,4 @@ A simple and elegant digital clock built using [HTML, CSS, JavaScript].
 
 ## Preview
 
-![Digital Clock](/Image/digitalclock.png)
+![Digital Clock](https://raw.githubusercontent.com/iamjxtinnn/front-end-projects/refs/heads/main/Digital%20Clock/Image/digitalclock.png)
