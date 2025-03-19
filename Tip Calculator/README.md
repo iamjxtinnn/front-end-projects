@@ -1,6 +1,6 @@
 # Tip Calculator
 
-[Live Demo]()
+[Live Demo](https://js-tipcalculator.vercel.app/)
 
 A simple and responsive Tip Calculator built using HTML, CSS, and JavaScript. This tool helps users quickly calculate the tip amount and total bill based on the entered bill amount, tip percentage, and number of people splitting the bill.
 
