@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Tip Calculator</h1>
+      </div>
+      <form autocomplete="off">
+        <div class="input-fields">
+          <!-- Bill Input -->
+          <div class="bill inner">
+            <label for="bill">Enter the Bill Amount ($)</label>
+            <input
+              type="number"
+              name="bill"
+              id="bill"
+              placeholder="100"
+              required
+            />
+          </div>
+
+          <!-- Tip Selection -->
+          <div class="tip inner">
+            <label for="options">Select Tip Percentage (%)</label>
+            <select name="options" id="options" required>
+              <option value="" disabled selected>Select Tip</option>
+              <option value="15">15% - Not Bad</option>
+              <option value="20">20% - Average</option>
+              <option value="25">25% - Extraordinary</option>
+              <option value="30">30% - Life Saver</option>
+            </select>
+          </div>
+
+          <!-- Number of People Sharing -->
+          <div class="share inner">
+            <label for="share">Number of People</label>
+            <input
+              type="number"
+              name="share"
+              id="share"
+              placeholder="1"
+              min="1"
+              required
+            />
+          </div>
+          <!-- Buttons -->
+          <div class="calculate-button">
+            <button type="submit" id="calc-tip">Calculate</button>
+            <button type="reset" id="reset">Reset</button>
+          </div>
+        </div>
+
+        <!-- Tip Display (Hidden by Default) -->
+        <div id="tip-container" style="display: none">
+          <label for="tip_amount">Final Tip</label>
+          <input type="text" id="tip_amount" readonly />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 23rem;
+  width: 23rem;
+  min-height: 22rem;
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.heading {
+  padding: 1rem 0;
+}
+
+.container form {
+  min-height: 20rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.calculate-button {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+  background-color: #f1f1f1;
+  border: 1px solid rgb(174, 171, 171, 0.5);
+  border-radius: 3px;
+  padding: 0 7px;
+  outline: none;
+  width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  border: 2px solid #7bcf57;
+}
+
+.calculate-button button {
+  width: 40%;
+  padding: 0.5rem 1.5rem;
+}
+
+#calc-tip {
+  border: none;
+  background-color: #7bcf57;
+  cursor: pointer;
+}
+
+#reset {
+  border: none;
+  background-color: #f53e3e;
+  cursor: pointer;
+}
+#tip-container {
+  width: 100%;
+}
+/* To get rid of the spinners of Input type "Number" */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
