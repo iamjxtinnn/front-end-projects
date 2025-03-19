@@ -6,7 +6,7 @@ A simple and responsive Tip Calculator built using HTML, CSS, and JavaScript. Th
 
 ## Preview
 
-![TipCalc](/images/Tip-calculator.png)
+![TipCalc](Tip-Calculator/images/Tip-calculator.png)
 
 ## Features
 
